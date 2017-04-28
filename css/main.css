@@ -1,3 +1,96 @@
-body {
+html {
   font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+p {
+  font-family: 'PT Serif', serif;
+  font-weight: normal;
+}
+
+.bolder {
+  font-weight: 900;
+}
+
+header {
+  background-color: black;
+}
+
+.banner {
+  min-height: 20rem;
+  background-color: black;
+}
+
+.btn-thin {
+  width: 5em;
+  padding: .1em;
+}
+
+.btn-light {
+  background-color: white;
+  border-color: white;
+}
+
+.btn-banner {
+  width: 7em;
+}
+
+.cards {
+  background-color: black;
+}
+
+.home-card {
+  background-color: white;
+  border: solid 3px black;
+}
+
+.home-card h3 {
+  color: white;
+  background-color: black
+}
+
+.home-card p {
+  color: black;
+}
+
+footer {
+  background-color: black;
+}
+
+.i-brain {
+  background-image: url("../images/logo-brain.svg");
+}
+
+.i-strike {
+  background-image: url("../images/logo-strike.svg");
+}
+
+.i-facebook {
+  background-image: url("../images/badge-facebook.svg");
+}
+
+.i-insta {
+  background-image: url("../images/badge-insta.svg");
+}
+
+.i-twitter {
+  background-image: url("../images/badge-twitter.svg");
+}
+
+@media only screen and (min-width: 38em) {
+
+  .logo-text {
+    width: 50%;
+  }
+
+  .nav-list {
+    width: 50%;
+  }
+
+  .footer-button {
+    float:left;
+    padding-top: 1rem;
+  }
+
 }
