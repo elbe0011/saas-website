@@ -87,13 +87,45 @@ header {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.home-card h2, .tour-card h2 {
+.pricing-card {
+  background-color: white;
+  border: solid 3px black;
+  height: 30rem;
+  max-width: 25rem;
+  margin: 0 auto;
+}
+
+.pricing-card .media-body {
+  min-width: 0;
+}
+
+.home-card h2, .tour-card h2, .pricing-card h2 {
   color: white;
   background-color: black
 }
 
-.home-card p, .tour-card p {
+.home-card p, .tour-card p, .pricing-card p, .pricing-card ul {
   color: black;
+  font-family: 'PT Serif', serif;
+  font-weight: normal;
+}
+
+.pricing-card p, .pricing-card ul{
+  height: 9rem;
+}
+
+.pricing-card:hover {
+  background-color: #ccc;
+}
+
+.pricing-card:hover .btn {
+  background-color: #666;
+  border-color: #666;
+}
+
+.unlimited-power {
+  color: black;
+  height: 7.5rem;
 }
 
 footer {
@@ -118,6 +150,10 @@ footer {
 
 .i-twitter {
   background-image: url("../images/badge-twitter.svg");
+}
+
+.i-testimonial {
+  background-image: url("../images/icon-testimonial.svg");
 }
 
 @media only screen and (min-width: 38em) {
