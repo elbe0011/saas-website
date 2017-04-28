@@ -1,7 +1,23 @@
-html {
+html, nav p {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   color: white;
+}
+
+.tour-background {
+  background-image: url("../images/background-tour.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.signup-background {
+  background-image: url("../images/background-signup.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
 }
 
 p {
@@ -17,9 +33,23 @@ header {
   background-color: black;
 }
 
+.tour-header {
+  background: none;
+}
+
 .banner {
   min-height: 20rem;
   background-color: black;
+}
+
+.btn {
+  background-color: black;
+  border-color: black;
+}
+
+.btn:hover {
+  background: #666;
+  border-color: #666;
 }
 
 .btn-thin {
@@ -45,12 +75,16 @@ header {
   border: solid 3px black;
 }
 
-.home-card h3 {
+.tour-card {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.home-card h2, .tour-card h2 {
   color: white;
   background-color: black
 }
 
-.home-card p {
+.home-card p, .tour-card p {
   color: black;
 }
 
