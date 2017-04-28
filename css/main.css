@@ -90,7 +90,6 @@ header {
 .pricing-card {
   background-color: white;
   border: solid 3px black;
-  height: 30rem;
   max-width: 25rem;
   margin: 0 auto;
 }
@@ -108,10 +107,6 @@ header {
   color: black;
   font-family: 'PT Serif', serif;
   font-weight: normal;
-}
-
-.pricing-card p, .pricing-card ul{
-  height: 9rem;
 }
 
 .pricing-card:hover {
@@ -169,6 +164,14 @@ footer {
   .footer-button {
     float:left;
     padding-top: 1rem;
+  }
+
+  .pricing-card {
+      height: 30rem;5
+  }
+
+  .pricing-card p, .pricing-card ul{
+    height: 9rem;
   }
 
 }
