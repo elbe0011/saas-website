@@ -20,6 +20,14 @@ html, nav p {
   position: relative;
 }
 
+.pricing-background {
+  background-image: url("../images/background-pricing.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
 p {
   font-family: 'PT Serif', serif;
   font-weight: normal;
