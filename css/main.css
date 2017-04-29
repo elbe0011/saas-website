@@ -1,5 +1,5 @@
 html, nav p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
   font-weight: bold;
   color: white;
 }
@@ -33,8 +33,12 @@ html, nav p {
   color: white;
 }
 
+.logo-text:hover {
+  color: #999;
+}
+
 p {
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-weight: normal;
 }
 
@@ -75,6 +79,10 @@ header {
   border-color: white;
 }
 
+.img-bot {
+  height: 2rem;
+}
+
 .btn-banner {
   width: 7em;
 }
@@ -89,7 +97,7 @@ header {
 }
 
 .tour-card {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, .5);
 }
 
 .pricing-card {
@@ -105,12 +113,12 @@ header {
 
 .home-card h2, .tour-card h2, .pricing-card h2 {
   color: white;
-  background-color: black
+  background-color: black;
 }
 
 .home-card p, .tour-card p, .pricing-card p, .pricing-card ul {
   color: black;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-weight: normal;
 }
 
@@ -133,11 +141,11 @@ header {
 }
 
 .table-wrapper {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, .3);
 }
 
 tbody tr:nth-child(odd) {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, .3);
 }
 
 thead th {
@@ -151,7 +159,7 @@ tbody {
 
 tbody th {
   color: black;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-weight: normal;
 }
 
@@ -160,7 +168,7 @@ tbody th {
 }
 
 .no {
-  color: rgb(154, 6, 6)
+  color: rgb(154, 6, 6);
 }
 
 footer {
@@ -202,15 +210,15 @@ footer {
   }
 
   .footer-button {
-    float:left;
+    float: left;
     padding-top: 1rem;
   }
 
   .pricing-card {
-      height: 30rem;5
+    height: 30rem;
   }
 
-  .pricing-card p, .pricing-card ul{
+  .pricing-card p, .pricing-card ul {
     height: 9rem;
   }
 
