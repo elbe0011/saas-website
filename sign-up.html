@@ -23,11 +23,45 @@
   </header>
   <main>
     <div class="text-center">
-        <h2 class="yotta push-2 gutter-2">Sign up to use Mind Storm for FREE!</h2>
+        <h2 class="yotta push-2 gutter-2">Sign up to use Mind Storm<br>for FREE!</h2>
     </div>
     <section class="signup-section">
-      <form class="" action=".html" method="POST">
-
+      <form class="" action="index.html" method="POST">
+        <div class="max-length island">
+          <div class="grid">
+            <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
+              <label class="push-1-2" for="name-f">First name</label>
+              <input class="push" name="name-f" id="name-f">
+            </div>
+            <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
+              <label class="push-1-2" for="name-l">Last name</label>
+              <input class="push" name="name-l" id="name-l">
+            </div>
+            <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
+              <label class="push-1-2" for="user">Username</label>
+              <input class="push" name="user" id="user">
+            </div>
+            <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
+              <label class="push-1-2" for="dob">Date of birth</label>
+              <input class="push" type="date" name="dob" id="dob">
+            </div>
+            <div class="unit [ xs-1 s-1 m-1 l-1 ]">
+              <label class="push-1-2" for="email">Email</label>
+              <input class="push" type="email" id="email" name="email">
+            </div>
+            <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
+              <label class="push-1-2" for="password">Password</label>
+              <input class="push" type="password" id="password" name="password">
+            </div>
+            <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
+              <label class="push-1-2" for="password">Password Confirmation</label>
+              <input class="push" type="password-c" id="password-c" name="password-c">
+            </div>
+          </div>
+        </div>
+        <div class="text-center push-2">
+          <button class="btn btn-light giga" type="submit">Sign up!</button>
+        </div>
       </form>
     </section>
   </main>

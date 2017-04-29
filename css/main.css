@@ -123,6 +123,41 @@ header {
   height: 7.5rem;
 }
 
+.table-header {
+  background-color: black;
+}
+
+.table-wrapper {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+tbody tr:nth-child(odd) {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+thead th {
+  font-weight: normal;
+  color: black;
+}
+
+tbody {
+  color: black;
+}
+
+tbody th {
+  color: black;
+  font-family: 'PT Serif', serif;
+  font-weight: normal;
+}
+
+.feature {
+  width: 7em;
+}
+
+.no {
+  color: rgb(154, 6, 6)
+}
+
 footer {
   background-color: black;
 }
