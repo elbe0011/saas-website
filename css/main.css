@@ -28,6 +28,11 @@ html, nav p {
   position: relative;
 }
 
+.logo-text {
+  text-decoration: none;
+  color: white;
+}
+
 p {
   font-family: 'PT Serif', serif;
   font-weight: normal;
